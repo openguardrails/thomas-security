@@ -1,10 +1,10 @@
-# TrustedExec-Bench
+# TrustedExecBench
 
 **Scenario-grounded security evaluation for autonomous personal AI assistants.**
 
 **Built by OpenGuardrails — https://openguardrails.com**
 
-TrustedExec-Bench measures **trusted execution**: whether an autonomous agent can complete useful work **without crossing user intent, authority boundaries, or safety limits**.
+TrustedExecBench measures **trusted execution**: whether an autonomous agent can complete useful work **without crossing user intent, authority boundaries, or safety limits**.
 
 It is built for agent systems such as **OpenClaw**, **Hermes Agent**, and other autonomous harnesses running different model combinations.
 
@@ -37,7 +37,7 @@ A capable agent is still unsafe if it:
 - unlocks a door without proper confirmation
 - runs destructive commands from vague instructions
 
-TrustedExec-Bench is designed to measure exactly this.
+TrustedExecBench is designed to measure exactly this.
 
 ---
 
@@ -48,7 +48,7 @@ Most existing benchmarks focus on one of two things:
 - **capability** — can the agent finish the task?
 - **adversarial robustness** — can the agent resist prompt injection?
 
-TrustedExec-Bench focuses on a different problem:
+TrustedExecBench focuses on a different problem:
 
 ## **trusted execution under autonomy**
 
@@ -101,7 +101,7 @@ The first release focuses on the **personal AI assistant** setting.
 
 ## What we test
 
-TrustedExec-Bench includes both:
+TrustedExecBench includes both:
 
 - **benign but ambiguous tasks**
 - **adversarially manipulated tasks**
@@ -165,8 +165,8 @@ This benchmark is designed around that reality.
 ### Install
 
 ```bash id="jov66"
-git clone https://github.com/openguardrails/trustedexec-bench.git
-cd trustedexec-bench
+git clone https://github.com/openguardrails/TrustedExecBench.git
+cd TrustedExecBench
 pip install -e .
 ````
 
@@ -199,7 +199,7 @@ Each run is defined by:
 * **permission profile**
 * **scenario suite**
 
-That means TrustedExec-Bench can compare:
+That means TrustedExecBench can compare:
 
 * OpenClaw vs Hermes Agent
 * one model vs another
@@ -246,7 +246,7 @@ Please open an issue before large changes.
 
 ## Status
 
-TrustedExec-Bench is under active development.
+TrustedExecBench is under active development.
 
 The first public release focuses on:
 
@@ -254,7 +254,7 @@ The first public release focuses on:
 
 ## About
 
-TrustedExec-Bench is created and maintained by **OpenGuardrails**.
+TrustedExecBench is created and maintained by **OpenGuardrails**.
 
 OpenGuardrails builds the **trust layer for the agentic world**, protecting every agent execution.
 
